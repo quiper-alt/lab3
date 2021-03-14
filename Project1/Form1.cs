@@ -41,9 +41,6 @@ namespace Project1
                         || c.Extension == ".png")
                         .ToList();
 
-                //_imageList.Clear();
-                //_imageList.AddRange(images);
-
                 listBox1.Items.Clear();
                 foreach (var item in _imageList)
                 {
